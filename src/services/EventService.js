@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-// mock server
+// mock API
 const apiClient = axios.create({
   baseURL: 'http://localhost:3000',
   withCredentials: false,

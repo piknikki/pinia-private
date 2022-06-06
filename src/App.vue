@@ -5,10 +5,25 @@
       <router-link :to="{ name: 'About' }">About</router-link>
       |
       <router-link :to="{ name: 'EventCreate' }">Create Event</router-link>
+      <p>Logged in as {{ userStore.user }}</p>
     </div>
     <router-view />
   </div>
 </template>
+
+<script>
+import { useUserStore } from "./stores/UserStore";
+
+export default {
+  setup() {
+    const userStore = useUserStore()
+
+    return {
+      userStore
+    }
+  }
+}
+</script>
 
 <style>
 #app {
