@@ -1,5 +1,6 @@
 import axios from 'axios'
 
+// mock server
 const apiClient = axios.create({
   baseURL: 'http://localhost:3000',
   withCredentials: false,
@@ -16,7 +17,7 @@ export default {
   getEvent(id) {
     return apiClient.get('/events/' + id)
   },
-  postEvent(event) { 
+  postEvent(event) {
     return apiClient.post('/events', event)
   }
 }

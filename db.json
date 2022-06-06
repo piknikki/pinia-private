@@ -29,6 +29,16 @@
       "date": "July 22, 2022",
       "time": "11:00",
       "organizer": "Carey Wales"
+    },
+    {
+      "id": "e4ddb029-4d9d-4011-b817-f39bf2c9ae8e",
+      "category": "",
+      "title": "Learn about Pinia",
+      "description": "Diffs between Vuex and Pinia",
+      "location": "here",
+      "date": "today",
+      "time": "now",
+      "organizer": "Adam Jahr"
     }
   ]
 }
