@@ -39,6 +39,16 @@
       "date": "today",
       "time": "now",
       "organizer": "Adam Jahr"
+    },
+    {
+      "id": "3ca64ec6-4f3e-4922-8954-8c04554bb69a",
+      "category": "nature",
+      "title": "take a walk outside",
+      "description": "walk out in nature",
+      "location": "at the park",
+      "date": "today",
+      "time": "noon",
+      "organizer": "Adam Jahr"
     }
   ]
 }

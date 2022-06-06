@@ -1,4 +1,5 @@
 import { defineStore } from "pinia";
+import EventService from '../services/EventService.js' // mock data from mock database call
 
 export const useEventStore = defineStore('EventStore', {
   state() {
@@ -9,5 +10,25 @@ export const useEventStore = defineStore('EventStore', {
   },
   getters: {
     numberOfEvents: state => state.events.length
+  },
+  actions: {
+    createEvent(event) {
+      return EventService.postEvent(event)
+        .then(() => {
+          this.events.push(event)
+        })
+        .catch(error => {
+          throw error
+        })
+    },
+    fetchEvents() {
+      return EventService.getEvents()
+        .then(response => {
+          this.events = response.data
+        })
+        .catch(error => {
+          throw error
+        })
+    },
   }
 })
