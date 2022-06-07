@@ -3,7 +3,7 @@
     {
       "id": 123,
       "category": "animal welfare",
-      "title": "Cat Adoption Day FOOBAR",
+      "title": "Cat Adoption Day",
       "description": "Find your new feline friend at this event.",
       "location": "Meow Town",
       "date": "January 28, 2022",
@@ -31,34 +31,34 @@
       "organizer": "Carey Wales"
     },
     {
-      "id": "e4ddb029-4d9d-4011-b817-f39bf2c9ae8e",
-      "category": "",
-      "title": "Learn about Pinia",
-      "description": "Diffs between Vuex and Pinia",
-      "location": "here",
-      "date": "today",
-      "time": "now",
-      "organizer": "Adam Jahr"
-    },
-    {
-      "id": "3ca64ec6-4f3e-4922-8954-8c04554bb69a",
+      "id": "3ef0582c-d483-4e2f-b2e6-9a62a18fdde5",
       "category": "nature",
-      "title": "take a walk outside",
-      "description": "walk out in nature",
-      "location": "at the park",
+      "title": "hug a tree",
+      "description": "wrap your arms around and squeeze",
+      "location": "forest",
       "date": "today",
-      "time": "noon",
-      "organizer": "Adam Jahr"
+      "time": "every 25 minutes",
+      "organizer": "Nikki Petersen"
     },
     {
-      "id": "635a46c7-d971-432d-9fb2-e55cdb81e789",
-      "category": "education",
-      "title": "learn some stuff",
-      "description": "hello world where r u",
-      "location": "dunno",
+      "id": "1c1f34ea-3aa5-416a-b7fb-1ca06f89e196",
+      "category": "nature",
+      "title": "save a bunny from snowy",
+      "description": "poor lil bunbun",
+      "location": "front porch",
+      "date": "tomorrow",
+      "time": "6 am",
+      "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "fa06b56d-4291-4ba9-b976-d901962a484f",
+      "category": "animal welfare",
+      "title": "poor lil bunbun",
+      "description": "decapitated",
+      "location": "front porch",
       "date": "today",
-      "time": "9:30 am",
-      "organizer": "Adam Jahr"
+      "time": "4 am",
+      "organizer": "Nikki Petersen"
     }
   ]
 }

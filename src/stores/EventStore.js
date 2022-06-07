@@ -30,5 +30,14 @@ export const useEventStore = defineStore('EventStore', {
           throw error
         })
     },
+    fetchEvent(id) {
+      return EventService.getEvent(id)
+        .then(response => {
+          this.event = response.data
+        })
+        .catch(error => {
+          throw error
+        })
+    }
   }
 })
