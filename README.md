@@ -1,4 +1,6 @@
 # From Vuex to Pinia
+VITE
+Vite scaffolding
 
 This is the companion repo to the Vue Master course: From Vuex to Pinia.
 

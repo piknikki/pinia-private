@@ -3,7 +3,7 @@
     {
       "id": 123,
       "category": "animal welfare",
-      "title": "Cat Adoption Day",
+      "title": "Cat Adoption Day FOOBAR",
       "description": "Find your new feline friend at this event.",
       "location": "Meow Town",
       "date": "January 28, 2022",
@@ -48,6 +48,16 @@
       "location": "at the park",
       "date": "today",
       "time": "noon",
+      "organizer": "Adam Jahr"
+    },
+    {
+      "id": "635a46c7-d971-432d-9fb2-e55cdb81e789",
+      "category": "education",
+      "title": "learn some stuff",
+      "description": "hello world where r u",
+      "location": "dunno",
+      "date": "today",
+      "time": "9:30 am",
       "organizer": "Adam Jahr"
     }
   ]
