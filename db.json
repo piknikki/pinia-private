@@ -59,6 +59,16 @@
       "date": "today",
       "time": "4 am",
       "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "3d177287-b372-44d0-ba85-ab9589456c96",
+      "category": "food",
+      "title": "🥓 bacon",
+      "description": "all the food",
+      "location": "eat when you see",
+      "date": "today",
+      "time": "all day",
+      "organizer": "Nikki Petersen"
     }
   ]
 }

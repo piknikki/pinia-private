@@ -90,7 +90,6 @@ export default {
         organizer: this.userStore.user
       }
 
-      console.log("id inside onSubmit", event.id)
       this.eventStore.createEvent(event)
         .then(() => {
           this.$router.push({
