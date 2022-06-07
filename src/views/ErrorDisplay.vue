@@ -1,6 +1,11 @@
 <script>
 export default {
-  props: ['error']
+  props: {
+    error: {
+      type: String,
+      default: 'Some random error happened'
+    }
+  }
 }
 </script>
 

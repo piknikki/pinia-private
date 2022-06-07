@@ -7,8 +7,8 @@
       <select v-model="event.category">
         <option
             v-for="option in categories"
-            :value="option"
             :key="option"
+            :value="option"
             :selected="option === event.category"
         >
           {{ option }}

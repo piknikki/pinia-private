@@ -3,7 +3,7 @@ import EventList from './views/EventList.vue'
 import EventDetails from './views/EventDetails.vue'
 import EventCreate from './views/EventCreate.vue'
 import ErrorDisplay from './views/ErrorDisplay.vue'
-import About from './views/About.vue'
+import About from './views/AboutView.vue'
 import NotFound from './views/NotFound.vue'
 
 const routes = [
@@ -34,7 +34,10 @@ const routes = [
     props: true,
     component: ErrorDisplay
   },
-  { path: '/:path(.*)', component: NotFound },
+  {
+    path: '/:path(.*)',
+    component: NotFound
+  },
 ]
 
 const router = createRouter({

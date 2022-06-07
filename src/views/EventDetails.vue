@@ -10,12 +10,22 @@
 import { useEventStore } from "../stores/EventStore";
 
 export default {
-  props: ['id'],
+  props: {
+    id: {
+      type: Number,
+      default: 42
+    }
+  },
   setup() {
     const eventStore = useEventStore()
 
     return {
       eventStore
+    }
+  },
+  computed: {
+    event() {
+      return this.eventStore.event
     }
   },
   created() {
@@ -25,11 +35,6 @@ export default {
         params: { error: error }
       })
     })
-  },
-  computed: {
-    event() {
-      return this.eventStore.event
-    }
   }
 }
 </script>

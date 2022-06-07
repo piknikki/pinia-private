@@ -12,9 +12,10 @@ dist
 dist-ssr
 *.local
 
+# local env files
+.env.*.local
+
 # Editor directories and files
-#.vscode/*
-#!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -22,3 +23,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# test output fixture (once we have them)
+/coverage
+cypress/videos/*
+cypress/screenshots/*
+
