@@ -1,9 +1,10 @@
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHistory } from 'vue-router'
 import EventList from './views/EventList.vue'
 import EventDetails from './views/EventDetails.vue'
 import EventCreate from './views/EventCreate.vue'
 import ErrorDisplay from './views/ErrorDisplay.vue'
 import About from './views/About.vue'
+import NotFound from './views/NotFound.vue'
 
 const routes = [
   {
@@ -32,11 +33,12 @@ const routes = [
     name: 'ErrorDisplay',
     props: true,
     component: ErrorDisplay
-  }
+  },
+  { path: '/:path(.*)', component: NotFound },
 ]
 
 const router = createRouter({
-  history: createWebHashHistory(),
+  history: createWebHistory(),
   routes
 })
 
