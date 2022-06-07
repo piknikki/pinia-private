@@ -69,6 +69,16 @@
       "date": "today",
       "time": "all day",
       "organizer": "Nikki Petersen"
+    },
+    {
+      "id": "536a6e22-a031-471f-b651-5a412756bd41",
+      "category": "nature",
+      "title": "blah",
+      "description": "blah",
+      "location": "test",
+      "date": "dha",
+      "time": "hasdf",
+      "organizer": "Nikki Petersen"
     }
   ]
 }
