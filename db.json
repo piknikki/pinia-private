@@ -80,5 +80,19 @@
       "time": "hasdf",
       "organizer": "Nikki Petersen"
     }
+  ],
+  "users": [
+    {
+      "id": "42",
+      "firstName": "Tricia",
+      "lastName": "McMillan",
+      "email": "Trillian@HG2G.com"
+    },
+    {
+      "id": "42-42",
+      "firstName": "Leia",
+      "lastName": "Organa",
+      "email": "MyOnlyHope@rebels.com"
+    }
   ]
 }
